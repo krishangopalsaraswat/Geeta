@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/live_updates"
+            android:icon="@drawable/ic_menu_send"
+            android:title=" Live Updates" />
+        <item
+            android:id="@+id/online_study"
+            android:icon="@drawable/ic_menu_send"
+            android:title=" Online Study" />
+        <item
+            android:id="@+id/exam_tips"
+            android:icon="@drawable/ic_menu_send"
+            android:title=" Exam Tips" />
+        <item
+            android:id="@+id/personality_test"
+            android:icon="@drawable/ic_menu_send"
+            android:title=" Personality test" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/switchlanguage"
+                android:icon="@drawable/ic_menu_send"
+                android:title=" हिंदी में" />
+
+            <item
+                android:id="@+id/contact_us"
+                android:icon="@drawable/ic_menu_send"
+                android:title=" Contact Us" />
+        </menu>
+    </item>
+
+</menu>

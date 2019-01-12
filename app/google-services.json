@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "650993318418",
+    "firebase_url": "https://geeta-c7282.firebaseio.com",
+    "project_id": "geeta-c7282",
+    "storage_bucket": "geeta-c7282.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650993318418:android:ca6e5c5adb4ac95e",
+        "android_client_info": {
+          "package_name": "com.example.krish.geeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650993318418-4umvgm4uf24pnu4bf0geqc6tp71anrgj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krish.geeta",
+            "certificate_hash": "8cd90e61684c5165f6366dddee88db3d4e0ed7e0"
+          }
+        },
+        {
+          "client_id": "650993318418-933e3338163tdmhoshi2nnv9rmqj1o2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwLI_ja2BTKnaVfaUtleKf_0mXHZSYGHw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650993318418-933e3338163tdmhoshi2nnv9rmqj1o2u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

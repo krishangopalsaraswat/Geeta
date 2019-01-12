@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/engadmissionmenu"
+        android:orderInCategory="100"
+        android:title="Admission"
+        />
+    <item
+        android:id="@+id/engresultmenu"
+        android:orderInCategory="101"
+        android:title="Result"
+        />
+    <item
+        android:id="@+id/engadmitcardmenu"
+        android:orderInCategory="102"
+        android:title="Admit Card"
+        />
+</menu>

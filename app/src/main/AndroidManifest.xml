@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.krish.geeta">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Splashscreen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Enghome"
+            android:label="@string/title_activity_enghome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Engnotifications"
+            android:parentActivityName=".Enghome" />
+        <activity android:name=".Contactus" />
+        <activity
+            android:name=".Hinhome"
+            android:label="@string/title_activity_hinhome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Engpersonalitytest"
+            android:parentActivityName=".Enghome" />
+        <activity
+            android:name=".Engexamtips"
+            android:parentActivityName=".Enghome" />
+        <activity
+            android:name=".Engonlinestudy"
+            android:parentActivityName=".Enghome" />
+        <activity android:name=".Engliveupdates" />
+        <activity
+            android:name=".Hinpersonalitytest"
+            android:parentActivityName=".Hinhome" />
+        <activity
+            android:name=".Hinexamtips"
+            android:parentActivityName=".Hinhome" />
+        <activity
+            android:name=".Hinonlinestudy"
+            android:parentActivityName=".Hinhome" />
+        <activity android:name=".Hinliveupdates" />
+        <activity
+            android:name=".Hinnotifications"
+            android:parentActivityName=".Hinhome" />
+        <activity
+            android:name=".Hinadmission"
+            android:parentActivityName=".Hinliveupdates"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hinresult"
+            android:parentActivityName=".Hinliveupdates"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hinadmitcard"
+            android:parentActivityName=".Hinliveupdates"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Engadmission"
+            android:parentActivityName=".Engliveupdates"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Engresult"
+            android:parentActivityName=".Engliveupdates"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Engadmitcard"
+            android:parentActivityName=".Engliveupdates"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hineducationloan"
+            android:parentActivityName=".Hinhome" />
+        <activity
+            android:name=".Hinscholarships"
+            android:parentActivityName=".Hinhome" />
+        <activity
+            android:name=".Hindistanceeducation"
+            android:parentActivityName=".Hinhome" />
+        <activity
+            android:name=".Hinstudyabroad"
+            android:parentActivityName=".Hinhome" />
+        <activity
+            android:name=".Hincareer"
+            android:parentActivityName=".Hinhome" />
+        <activity
+            android:name=".Hinconductedexams"
+            android:parentActivityName=".Hinhome" />
+        <activity
+            android:name=".Hinmathematicscareer"
+            android:parentActivityName=".Hincareer" />
+        <activity
+            android:name=".Hinbiologycareer"
+            android:parentActivityName=".Hincareer" />
+        <activity
+            android:name=".Hincommercecareer"
+            android:parentActivityName=".Hincareer" />
+        <activity
+            android:name=".Hinartscareer"
+            android:parentActivityName=".Hincareer" />
+        <activity
+            android:name=".Hinmathematicsexamsconducted"
+            android:parentActivityName=".Hinconductedexams" />
+        <activity
+            android:name=".Hinbiologyexamsconducted"
+            android:parentActivityName=".Hinconductedexams" />
+        <activity
+            android:name=".Hincommerceexamsconducted"
+            android:parentActivityName=".Hinconductedexams" />
+        <activity
+            android:name=".Hinartsexamsconducted"
+            android:parentActivityName=".Hinconductedexams" />
+        <activity
+            android:name=".Engcareerguidance"
+            android:parentActivityName=".Enghome" />
+        <activity
+            android:name=".Engcompetitiveexams"
+            android:parentActivityName=".Enghome" />
+        <activity
+            android:name=".Engstudyabroad"
+            android:parentActivityName=".Enghome" />
+        <activity
+            android:name=".Engdistanceeducation"
+            android:parentActivityName=".Enghome" />
+        <activity
+            android:name=".Engscholarships"
+            android:parentActivityName=".Bookdonationthnx" />
+        <activity
+            android:name=".Engeducationloan"
+            android:parentActivityName=".Enghome" />
+        <activity
+            android:name=".Engcemaths"
+            android:parentActivityName=".Engcompetitiveexams" />
+        <activity
+            android:name=".Engcebiology"
+            android:parentActivityName=".Engcompetitiveexams" />
+        <activity
+            android:name=".Engcecommerce"
+            android:parentActivityName=".Engcompetitiveexams" />
+        <activity
+            android:name=".Engcearts"
+            android:parentActivityName=".Engcompetitiveexams" />
+        <activity
+            android:name=".Engcgmaths"
+            android:parentActivityName=".Engcareerguidance" />
+        <activity
+            android:name=".Engcgbiology"
+            android:parentActivityName=".Engcareerguidance" />
+        <activity
+            android:name=".Engcgcommerce"
+            android:parentActivityName=".Engcareerguidance" />
+        <activity
+            android:name=".Engcgarts"
+            android:parentActivityName=".Engcareerguidance" />
+
+        <service android:name=".MessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_stat_name" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/green" />
+
+        <activity
+            android:name=".Bookdonationthnx"
+            android:parentActivityName=".Enghome" />
+        <activity android:name=".Thnxfordonation"
+            android:parentActivityName=".Enghome"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/hinadmissionmenu"
+        android:orderInCategory="100"
+        android:title="प्रवेश के लिए"
+        />
+    <item
+        android:id="@+id/hinresultmenu"
+        android:orderInCategory="101"
+        android:title="परीक्षा के परिणाम"
+        />
+    <item
+        android:id="@+id/hinadmitcardmenu"
+        android:orderInCategory="102"
+        android:title="प्रवेश पत्र"
+        />
+</menu>

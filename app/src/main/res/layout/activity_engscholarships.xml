@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:id="@+id/scusername"/>
+
+        <EditText
+            android:id="@+id/scedusername"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@id/scusername"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/et_bg"
+            android:fontFamily="sans-serif-light"
+            android:hint="Ex- Krishan Gopal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:id="@+id/scuserphonet"
+            android:layout_below="@id/scedusername"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/et_bg"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:id="@+id/sceduserphonee"
+            android:layout_below="@id/scuserphonet"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:inputType="number"
+            android:hint="Ex- 9876543210"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book details"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:id="@+id/scbook"
+        android:layout_below="@id/sceduserphonee"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/et_bg"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:id="@+id/scedbook"
+        android:layout_below="@id/scbook"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="left"
+        android:hint="Ex- Thomas H. Cormen. Charles E. Leiserson. Ronald L. Rivest. Clifford Stein. Introduction to Algorithms. Third Edition."
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:id="@+id/scaddress"
+        android:layout_below="@id/scedbook"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/et_bg"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:id="@+id/scedaddress"
+        android:layout_below="@id/scaddress"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+            <Button
+                android:id="@+id/engscbutton"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Register"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:layout_below="@id/scedaddress"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="10sp"/>
+
+
+    <ProgressBar
+        android:id="@+id/engscholarshipsprogressbar"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    </RelativeLayout>
+</ScrollView>
